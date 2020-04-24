@@ -4,6 +4,8 @@
     var elements = form.elements;
     var honeypot;
 
+    console.log("hello");
+
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "honeypot") {
         honeypot = elements[k].value;
