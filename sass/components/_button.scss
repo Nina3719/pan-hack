@@ -65,6 +65,11 @@
         }
     }
 
+    &-back {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
     &-submit {
         background-image: linear-gradient(90deg, rgba(203,228,230,1) 0%, rgba(167,243,255,1) 100%);
         color: $color-primary-text;
@@ -79,6 +84,33 @@
         text-transform: uppercase;
         text-decoration: none;
         padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: $default-font-size;
+
+        border: none;
+        cursor: pointer;
+
+        &::after {
+            background-image: linear-gradient(to right bottom, rgba(156,197,227,0.9598214285714286) 0%, rgba(130,126,149,1) 100%);
+        }
+    }
+
+    &-sign {
+        background-image: linear-gradient(90deg, rgba(203,228,230,1) 0%, rgba(167,243,255,1) 100%);
+        color: $color-primary-text;
+        margin-top: 2.3rem;
+        margin-bottom: .5rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: .2rem;
+        transform: translateY(-.3rem);
+        box-shadow: 0 .5rem 1rem rgba($color-shadow,.2);
+        text-transform: uppercase;
+        text-decoration: none;
+        // padding: 1rem 1rem;
         display: inline-block;
         border-radius: 10rem;
         transition: all .2s;

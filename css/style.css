@@ -219,6 +219,10 @@ body {
   .btn-white::after {
     background-color: #fff; }
 
+.btn-back {
+  margin-top: 0;
+  margin-left: 0; }
+
 .btn-submit {
   background-image: linear-gradient(90deg, #cbe4e6 0%, #a7f3ff 100%);
   color: #fff;
@@ -241,6 +245,28 @@ body {
   border: none;
   cursor: pointer; }
   .btn-submit::after {
+    background-image: linear-gradient(to right bottom, rgba(156, 197, 227, 0.959821) 0%, #827e95 100%); }
+
+.btn-sign {
+  background-image: linear-gradient(90deg, #cbe4e6 0%, #a7f3ff 100%);
+  color: #fff;
+  margin-top: 2.3rem;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
+  .btn-sign::after {
     background-image: linear-gradient(to right bottom, rgba(156, 197, 227, 0.959821) 0%, #827e95 100%); }
 
 .btn-icon:hover {
@@ -337,6 +363,35 @@ body {
       background-image: linear-gradient(to right bottom, rgba(156, 197, 227, 0.8) 0%, rgba(130, 126, 149, 0.8) 100%); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(156, 197, 227, 0.8) 0%, rgba(130, 126, 149, 0.8) 100%); }
+  .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center; }
+  .card__price-box {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
   @media (max-width: 56.25em) {
     .card {
       height: auto; }
