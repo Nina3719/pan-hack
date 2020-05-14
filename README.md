@@ -1,6 +1,7 @@
 # pan-hack
 
-Run:
+## Run:
 
-npm run compile:sass
-live-server
+###  npm run compile:sass
+
+### live-server
