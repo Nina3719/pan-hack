@@ -642,7 +642,8 @@ body {
     backface-visibility: hidden; }
   .pictures:hover .pictures__caption {
     opacity: 1;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; }
   .pictures:hover .pictures__img {
     transform: scale(0.9);
     filter: blur(0.3rem) brightness(80%); }
